@@ -4,16 +4,41 @@ button{
     border-radius: 35px;
     padding: 10px;
     border: 0px;
-    &.large{
-        width: 100%;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    &.VisualGroup{
+        background-color: @VisualGroupPrimary;   
+        color: white;
+        .sizes();            
     }
-    &.medium{
-        width: 75%;
+    &.VisualSafety{
+        background-color: @VisualSafetyPrimary;
+        color: white;
+        .sizes(); 
     }
-    &.small{
-        width: 50%;
+    &.VisualFood{
+        background-color: @VisualFoodPrimary;
+        color: white;
+        .sizes(); 
     }
-    &.xsmall{
-        width: 25%;
+    &.VisualFarm{
+        background-color: @VisualFarmPrimary;
+        color: white;
+        .sizes(); 
+    }
+    &.VisualElectrical{
+        background-color: @VisualElectricalPrimary;
+        color: white;
+        .sizes(); 
+    }
+    &.VisualAutomotive{
+        background-color: @VisualAutoPrimary;
+        color: white;
+        .sizes(); 
+    }
+    &.VisualQuarry{
+        background-color: @VisualQuarryPrimary;
+        color: white;
+        .sizes(); 
     }
 }

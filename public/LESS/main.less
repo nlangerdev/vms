@@ -120,4 +120,149 @@ div.grid{
             text-transform: uppercase;
         }
     }
+    div.itemcard-header{
+        height: 200px;
+        width: 100%;
+        &.VisualElectrical{
+            background-image: url('/images/cards/electrical.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
+        &.VisualSafety{
+            background-image: url('/images/cards/construction.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
+        &.VisualQuarrying{
+            background-image: url('/images/cards/quarrying.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
+        &.VisualFarming{
+            background-image: url('/images/cards/farming.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
+        &.VisualFood{
+            background-image: url('/images/cards/hygiene.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
+        &.VisualAuto{
+            background-image: url('/images/cards/automotive.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
+    }
+    div.itemcard-category{
+        background-color: @FocusWhite;
+        height: 300px;
+        padding: 10px;
+        &.VisualGroup{
+            border-bottom: 5px @VisualGroupPrimary solid;
+        }
+        &.VisualElectrical{
+            border-bottom: 5px @VisualElectricalPrimary solid;
+            transition: all 0.5s;
+            &:hover{               
+                background-size: cover;
+                background-color: @VisualElectricalPrimary;
+                transition: all 0.5s;
+                color: white;
+                button.VisualElectrical{
+                    background-color: white;
+                    color: @VisualElectricalPrimary;
+                    transition: all 0.5s;
+                }
+            }
+        }   
+        &.VisualSafety{
+            border-bottom: 5px @VisualSafetyPrimary solid;
+            transition: all 0.5s;
+            &:hover{               
+                background-size: cover;
+                background-color: @VisualSafetyPrimary;
+                transition: all 0.5s;
+                color: white;
+                button.VisualSafety{
+                    background-color: white;
+                    color: @VisualSafetyPrimary;
+                    transition: all 0.5s;
+                }
+            }
+        }  
+        &.VisualQuarrying{
+            border-bottom: 5px @VisualQuarryPrimary solid;
+            transition: all 0.5s;
+            &:hover{               
+                background-size: cover;
+                background-color: @VisualQuarryPrimary;
+                transition: all 0.5s;
+                color: white;
+                button.VisualQuarry{
+                    background-color: white;
+                    color: @VisualQuarryPrimary;
+                    transition: all 0.5s;
+                }
+            }
+        } 
+        &.VisualFarming{
+            border-bottom: 5px @VisualFarmPrimary solid;
+            transition: all 0.5s;
+            &:hover{               
+                background-size: cover;
+                background-color: @VisualFarmPrimary;
+                transition: all 0.5s;
+                color: white;
+                button.VisualFarm{
+                    background-color: white;
+                    color: @VisualFarmPrimary;
+                    transition: all 0.5s;
+                }
+            }
+        }
+        &.VisualFood{
+            border-bottom: 5px @VisualFoodPrimary solid;
+            transition: all 0.5s;
+            &:hover{               
+                background-size: cover;
+                background-color: @VisualFoodPrimary;
+                transition: all 0.5s;
+                color: white;
+                button.VisualFood{
+                    background-color: white;
+                    color: @VisualFoodPrimary;
+                    transition: all 0.5s;
+                }
+            }
+        } 
+        &.VisualAuto{
+            border-bottom: 5px @VisualAutoPrimary solid;
+            transition: all 0.5s;
+            &:hover{               
+                background-size: cover;
+                background-color: @VisualAutoPrimary;
+                transition: all 0.5s;
+                color: white;
+                button.VisualAuto{
+                    background-color: white;
+                    color: @VisualAutoPrimary;
+                    transition: all 0.5s;
+                }
+            }
+        }         
+    }
+    div.newscard-header{
+        width: 100%;        
+        color: white;
+        text-transform: uppercase;
+        &.VisualGroup{
+            background-color: @VisualGroupPrimary;
+            padding: 25px 10px;
+        }
+    }
+    div.newscard{
+        background-color: white;
+        height: 500px;
+    }
 }
