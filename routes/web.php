@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('Websites.VisualGroup.Pages.welcome');
 });
+
+
+// LESS Controller 
+Route::get('/Resources/LESS', ['uses' =>'VisualGroup\LessController@Less']);
