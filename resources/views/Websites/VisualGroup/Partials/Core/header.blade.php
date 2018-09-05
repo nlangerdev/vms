@@ -1,5 +1,14 @@
 <div class="topbar VisualGroup">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
 
+            </div>
+            <div class="col-lg-6">
+
+            </div>
+        </div>
+    </div>
 </div>
 <div class="header">
     <div class="container">
@@ -10,7 +19,14 @@
                 </div>
             </div>
             <div class="col-lg-7">
-
+                <div class="search">
+                    <div class="container">
+                        <form action="">
+                            <input type="text" placeholder="Search by product or keyword">
+                            <input type="submit" class="VisualGroup"value='Search'>
+                        </form> 
+                    </div>                    
+                </div>
             </div>
             <div class="col-lg-2">
                 <div class="cart">

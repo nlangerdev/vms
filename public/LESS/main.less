@@ -36,12 +36,41 @@ div.header{
         }
     }
     div.search{
-        input{
+        position: relative;
+        input[type="text"]{            
             background-color: @BackgroundGrey;
+            padding: 10px;
+            border: 0;
+            width: 80%;
+            margin-top: 45px;
+            height: 45px;
+        }
+        input[type="submit"]{           
+            color: @FocusWhite;
+            border: 0;
+            font-size: 12px;
+            width: 10%;     
+            padding-top: 9px;
+            padding-bottom: 4px;
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 45px;        
+            margin-left: -20px;
+            -webkit-appearance: none;   
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: 700;      
+            &.VisualGroup{
+                background-color: @VisualGroupPrimary;  
+                transition: all 0.5s;   
+                &:hover{
+                    background-color: @VisualGroupPale;
+                    transition: all 0.5s;
+                }           
+            }
         }
     }
     div.cart{
-        margin-top: 45px;
+        margin-top: 55px;
         text-align: right;
         &.VisualGroup{
             color: @VisualGroupPrimary;
