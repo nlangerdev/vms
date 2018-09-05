@@ -27,21 +27,23 @@ div.topbar{
 div.header{
     width: 100%;
     overflow: hidden;
-    background-color: @FocusWhite;
-    height: 160px;
+    background-color: @FocusWhite; 
     div.branding{
         img.logo{
             width: 80%;
             margin-top: 35px;
+            @media @smartphones{
+                width: 50%;
+            }
         }
     }
     div.search{
         position: relative;
         input[type="text"]{            
-            background-color: @BackgroundGrey;
+            background-color: @FormGrey;
             padding: 10px;
             border: 0;
-            width: 80%;
+            width: 90%;
             margin-top: 45px;
             height: 45px;
         }
@@ -99,6 +101,23 @@ div.header{
                     }
                 }
             }
+        }
+    }
+}
+
+// Masonry Grid //
+
+div.grid{
+    div.itemcard{
+        background-color: @FocusWhite;
+        height: 300px;
+        padding: 10px;
+        img{
+            height: 275px;
+            float: right;            
+        }
+        h1{
+            text-transform: uppercase;
         }
     }
 }
