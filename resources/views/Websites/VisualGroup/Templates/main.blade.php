@@ -6,6 +6,7 @@
     <body>
         @include('Websites.VisualGroup.Partials.Core.header')
       @yield('pagecontent')
+        @include('Websites.VisualGroup.Partials.Core.footer')
     @include('Global.Scripts.js')
     </body>
 </html>

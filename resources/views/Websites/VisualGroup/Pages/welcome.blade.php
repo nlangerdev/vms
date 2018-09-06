@@ -154,7 +154,21 @@
                 </div>
             </div>
             <div class="col-lg-6">
+                <div class="newscard-header VisualGroup">
+                    <h3>Customer Testimonials</h3>
+                </div>
+                <div class="newscard">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3">
 
+                            </div>
+                            <div class="col-lg-9">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
