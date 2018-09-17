@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function () {    
+    $Api = (object)array(
+        'Reviews' => app('App\Http\Controllers\VisualGroup\TestimonialController')->testimonials(),
+    );
     return view('Websites.VisualGroup.Pages.welcome');
 });
 

@@ -144,7 +144,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-3">
-
+                                
                             </div>
                             <div class="col-lg-9">
                                 
@@ -158,20 +158,19 @@
                     <h3>Customer Testimonials</h3>
                 </div>
                 <div class="newscard">
-                    <div class="container">
-                        <div class="row">
+                    <div class="container">                        
+                        <div class="row">                            
                             <div class="col-lg-3">
 
                             </div>
                             <div class="col-lg-9">
-                                
+                               
                             </div>
-                        </div>
+                        </div>                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 @endsection
